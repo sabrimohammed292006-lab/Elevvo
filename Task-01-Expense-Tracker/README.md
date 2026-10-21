@@ -1,76 +1,36 @@
-💰 CLI Expense Tracker
+CLI Expense Tracker
+Overview
+A simple Python command-line application that allows users to record and manage daily expenses using JSON for persistent data storage.
 
-A simple command-line application built with Python to manage daily expenses and store data persistently using JSON.
-
-
-✨ Features
+Features
 
 Add Expenses: Record expenses with an amount, category, description, and date.
 View Expenses: Display recorded expense entries.
 Calculate Total: Calculate the total amount spent.
 Monthly Spending: Track expenses by month.
-Persistent Storage: Save expense records using JSON.
+JSON Storage: Preserve expense records between application runs.
 
 
-🛠️ Technologies
+Requirements
+
+Python 3 or a compatible Python 3 version.
 
 
+How to Run
+Run the following command from the Elevvo project folder:
+python .\Task-01-Expense-Tracker\main.py
 
-Technology
-Purpose
+Follow the on-screen prompts to manage your expenses.
 
+Example
+Amount: 150
+Category: Food
+Description: Lunch
 
+Example values only; actual prompts depend on the application implementation.
 
+Data Storage
+The application uses JSON to store expense records persistently.
 
-Python
-Application logic
-
-
-JSON
-Persistent data storage
-
-
-CLI
-User interaction
-
-
-
-
-📋 Requirements
-
-Python 3 installed on your system.
-A terminal or command prompt.
-
-
-🚀 Getting Started
-1. Clone the Repository
-git clone YOUR_GITHUB_REPOSITORY_URL
-
-Replace YOUR_GITHUB_REPOSITORY_URL with your actual repository URL.
-2. Navigate to the Project Folder
-cd Task-01-Expense-Tracker
-
-3. Run the Application
-python main.py
-
-Windows users can also run:
-py main.py
-
-
-💾 Data Storage
-The application uses JSON to store expense records, allowing data to persist between runs.
-
-Check the project files for the exact JSON filename and storage configuration.
-
-
-🎯 Learning Objectives
-
-Practice Python programming fundamentals.
-Work with JSON data.
-Build interactive command-line applications.
-Understand data persistence.
-Organize code into a practical project structure.
-
-
-🎓 Training Program
-Developed as part of the Elevvo Python Programming & AI — Level 1 training program.
+Author
+Python Programming & AI Trainee

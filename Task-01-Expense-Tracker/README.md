@@ -1,5 +1,7 @@
 CLI Expense Tracker
+
 A command-line application built with Python to manage daily expenses and store data persistently using JSON.
+
 Features
 
 Add expenses with an amount, category, description, and date.
@@ -33,7 +35,9 @@ On Windows, you can also use:
 py main.py
 
 Data Storage
+
 The application uses JSON to store expense records persistently. This allows saved expenses to be accessed between application runs.
+
 Learning Objectives
 
 Practice Python fundamentals.
@@ -43,4 +47,5 @@ Handle persistent data storage.
 Organize application logic into readable code.
 
 Project Context
+
 Developed as part of the Elevvo Python Programming & AI Training Program — Level 1.

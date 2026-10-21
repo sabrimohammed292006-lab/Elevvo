@@ -1,49 +1,89 @@
-AI Code Reviewer
-Overview
-A command-line Python application that uses a local AI model to review Python source code and identify potential bugs, runtime errors, style violations, and maintainability issues.
-The application runs locally using Ollama and the DeepSeek R1 1.5B model.
-Features
 
-Reviews Python code using a local AI model.
-Identifies potential logic bugs and runtime errors.
-Suggests improvements for code quality and maintainability.
-Assigns severity levels: High, Medium, and Low.
-Validates the AI-generated JSON report.
-Checks issue line numbers against the source file range.
-Removes duplicate findings.
-Saves the results to review_report.json.
-Handles invalid files, empty files, connection errors, and invalid AI responses.
+# AI Code Reviewer
 
-Requirements
+## Overview
 
-Python 3.10 or newer.
-Ollama installed and running.
-The deepseek-r1:1.5b model downloaded locally.
-No third-party Python packages required.
+A Python command-line application that uses a local DeepSeek model through Ollama to review Python source code and generate structured JSON reports.
 
-Setup
-Install Ollama from:
+---
+
+## Features
+
+- Reviews Python code using a local AI model.
+- Identifies potential programming logic errors.
+- Generates structured code review reports.
+- Uses Ollama to run DeepSeek locally.
+- Helps developers analyze potential code issues.
+
+---
+
+## Requirements
+
+- Python 3 or a compatible Python 3 version.
+- Ollama installed on your system.
+- DeepSeek R1 1.5B model downloaded locally.
+
+---
+
+## Setup
+
+### 1. Install Ollama
+
+Download Ollama from the official website:
+
 https://ollama.com/
-Download the model:
+
+### 2. Download the Model
+
+```bash
 ollama pull deepseek-r1:1.5b
+```
 
-Make sure Ollama is running before starting the application.
-How to Run
-python main.py
+### 3. Verify the Model
 
-Enter the path to the Python file you want to review.
-Alternatively, provide the file path as an argument:
-python main.py sample.py
+```bash
+ollama run deepseek-r1:1.5b
+```
 
-Output
-The application prints the review summary, detected issues, severity levels, line numbers, and suggested fixes.
-It also generates review_report.json in the same directory as the reviewed Python file.
-Limitations
+---
 
-AI-generated findings may be inaccurate or incomplete.
-Line-number validation confirms that a line is within the file range; it does not guarantee that the finding points to the exact source location.
-The application requires a running local Ollama service and the selected model.
-The tool does not automatically modify or execute the reviewed source code.
+## How to Run
 
-License
-For educational purposes.
+From the Elevvo project folder, run the actual entry-point file.
+
+For example, if the entry point is `main.py`:
+
+```powershell
+python .\Task-08-AI-Code-Reviewer\main.py
+```
+
+Make sure Ollama and the required model are available before running the application.
+
+---
+
+## Output
+
+The application generates a structured JSON code review report. The exact report fields depend on the implementation.
+
+---
+
+## Important Notes
+
+- AI-generated findings may be incomplete or incorrect.
+- Review the results before applying suggested changes.
+- The required local model must be installed before use.
+
+---
+
+## Learning Objectives
+
+- Integrate a local language model into a Python application.
+- Use Ollama to run AI models locally.
+- Explore AI-assisted code analysis.
+- Work with structured JSON reports.
+
+---
+
+## Author
+
+Python Programming & AI Trainee

@@ -3,34 +3,42 @@ Python Programming & AI — Level 1
 A collection of practical Python projects developed as part of the Elevvo internship program. Each project focuses on solving real-world problems through programming, automation, file management, and AI-assisted code analysis.
 
 🚀 Projects Overview
+
 Task 01 — CLI Expense Tracker
 A command-line application for recording, managing, and reviewing daily expenses with persistent JSON storage.
+
 Key Features
 
-Add and manage expenses.
-View recorded transactions.
-Calculate total and monthly spending.
-Store expense data using JSON.
+.Add and manage expenses.
+.View recorded transactions.
+.Calculate total and monthly spending.
+.Store expense data using JSON.
 
 Technologies: Python · JSON · CLI
+
 Task 03 — Automated File Organizer
+
 A Python utility that automatically organizes files into folders based on their file extensions.
+
 Key Features
 
-Identify file types by extension.
-Organize files into categorized folders.
-Reduce manual file management.
-Handle files efficiently using Python.
+.Identify file types by extension.
+.Organize files into categorized folders.
+.Reduce manual file management.
+.Handle files efficiently using Python.
 
 Technologies: Python · File System Operations · os · shutil
+
 Task 08 — AI Code Reviewer
+
 An AI-powered code review tool that analyzes Python source code and generates a report highlighting potential programming issues.
+
 Key Features
 
-Analyze Python code using a local AI model.
-Identify potential logic errors.
-Generate structured code review reports.
-Highlight issues and suggest improvements.
+.Analyze Python code using a local AI model.
+.Identify potential logic errors.
+.Generate structured code review reports.
+.Highlight issues and suggest improvements.
 
 Technologies: Python · Local LLM · DeepSeek · AI-Assisted Code Analysis
 
@@ -63,21 +71,21 @@ Note: The structure above illustrates the intended organization. Actual filename
 🎯 Learning Objectives
 Through these projects, I practiced:
 
-Writing modular and readable Python code.
-Building command-line applications.
-Working with JSON data and persistent storage.
-Automating file organization tasks.
-Integrating AI models into programming workflows.
-Identifying and analyzing code logic errors.
-Using Git and GitHub to manage and present projects.
+.Writing modular and readable Python code.
+.Building command-line applications.
+.Working with JSON data and persistent storage.
+.Automating file organization tasks.
+.Integrating AI models into programming workflows.
+.Identifying and analyzing code logic errors.
+.Using Git and GitHub to manage and present projects.
 
 
 ▶️ Getting Started
 Prerequisites
 
-Python 3.10 or later.
-Git, if cloning the repository.
-Additional dependencies or a compatible local AI model for Task 08, as specified in its README.
+.Python 3.10 or later.
+.Git, if cloning the repository.
+.Additional dependencies or a compatible local AI model for Task 08, as specified in its README.
 
 Run a Project
 Navigate to the selected task directory and execute its Python entry point.

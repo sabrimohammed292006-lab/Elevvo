@@ -1,36 +1,55 @@
-CLI Expense Tracker
-Overview
-A simple Python command-line application that allows users to record and manage daily expenses using JSON for persistent data storage.
 
-Features
+# CLI Expense Tracker
 
-Add Expenses: Record expenses with an amount, category, description, and date.
-View Expenses: Display recorded expense entries.
-Calculate Total: Calculate the total amount spent.
-Monthly Spending: Track expenses by month.
-JSON Storage: Preserve expense records between application runs.
+## Overview
 
+A simple Python command-line application for recording and managing daily expenses with JSON data persistence.
 
-Requirements
+---
 
-Python 3 or a compatible Python 3 version.
+## Features
 
+- **Add Expenses:** Record expenses with an amount, category, description, and date.
+- **View Expenses:** Display recorded expense entries.
+- **Calculate Total:** Calculate total expenses.
+- **Monthly Spending:** Track expenses by month.
+- **JSON Storage:** Save expense records between application runs.
 
-How to Run
+---
+
+## Requirements
+
+- Python 3 or a compatible Python 3 version.
+
+---
+
+## How to Run
+
 Run the following command from the Elevvo project folder:
+
+```bash
 python .\Task-01-Expense-Tracker\main.py
+```
 
 Follow the on-screen prompts to manage your expenses.
 
-Example
-Amount: 150
-Category: Food
-Description: Lunch
+---
 
-Example values only; actual prompts depend on the application implementation.
+## Data Storage
 
-Data Storage
-The application uses JSON to store expense records persistently.
+Expense records are stored in JSON format for persistence between application runs.
 
-Author
+---
+
+## Learning Objectives
+
+- Practice Python programming fundamentals.
+- Work with JSON data.
+- Build command-line applications.
+- Understand persistent data storage.
+
+---
+
+## Author
+
 Python Programming & AI Trainee

@@ -1,51 +1,76 @@
-CLI Expense Tracker
+💰 CLI Expense Tracker
 
-A command-line application built with Python to manage daily expenses and store data persistently using JSON.
+A simple command-line application built with Python to manage daily expenses and store data persistently using JSON.
 
-Features
 
-Add expenses with an amount, category, description, and date.
-View recorded expenses.
-Calculate total expenses.
-Track monthly spending.
-Store expense data in JSON for persistence between runs.
+✨ Features
 
-Technologies
+Add Expenses: Record expenses with an amount, category, description, and date.
+View Expenses: Display recorded expense entries.
+Calculate Total: Calculate the total amount spent.
+Monthly Spending: Track expenses by month.
+Persistent Storage: Save expense records using JSON.
+
+
+🛠️ Technologies
+
+
+
+Technology
+Purpose
+
+
+
 
 Python
-JSON
-Command-Line Interface (CLI)
+Application logic
 
-Requirements
+
+JSON
+Persistent data storage
+
+
+CLI
+User interaction
+
+
+
+
+📋 Requirements
 
 Python 3 installed on your system.
+A terminal or command prompt.
 
-Getting Started
+
+🚀 Getting Started
 1. Clone the Repository
 git clone YOUR_GITHUB_REPOSITORY_URL
 
-Replace YOUR_GITHUB_REPOSITORY_URL with your repository URL.
-2. Navigate to the Project Directory
+Replace YOUR_GITHUB_REPOSITORY_URL with your actual repository URL.
+2. Navigate to the Project Folder
 cd Task-01-Expense-Tracker
 
 3. Run the Application
 python main.py
 
-On Windows, you can also use:
+Windows users can also run:
 py main.py
 
-Data Storage
 
-The application uses JSON to store expense records persistently. This allows saved expenses to be accessed between application runs.
+💾 Data Storage
+The application uses JSON to store expense records, allowing data to persist between runs.
 
-Learning Objectives
+Check the project files for the exact JSON filename and storage configuration.
 
-Practice Python fundamentals.
-Work with structured JSON data.
+
+🎯 Learning Objectives
+
+Practice Python programming fundamentals.
+Work with JSON data.
 Build interactive command-line applications.
-Handle persistent data storage.
-Organize application logic into readable code.
+Understand data persistence.
+Organize code into a practical project structure.
 
-Project Context
 
-Developed as part of the Elevvo Python Programming & AI Training Program — Level 1.
+🎓 Training Program
+Developed as part of the Elevvo Python Programming & AI — Level 1 training program.

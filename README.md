@@ -94,8 +94,10 @@ python main.py
 For Task 08, follow the model setup and execution instructions documented in that task's README.
 
 📌 Project Status
+
 The three selected projects have been implemented and tested during development. Their documentation and presentation are being refined for a professional GitHub portfolio.
 
 👨‍💻 About
+
 These projects were developed as part of the Elevvo Internship — Python Programming & AI, Level 1.
 The repository documents my practical learning journey in Python development, automation, and AI-assisted programming.

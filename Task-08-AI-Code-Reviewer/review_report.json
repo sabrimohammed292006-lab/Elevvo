@@ -1,0 +1,16 @@
+{
+  "summary": "The function calculate_total incorrectly subtracts quantity from price instead of multiplying them. The print statement is somewhat vague.",
+  "issues": [
+    {
+      "severity": "High",
+      "line": 2,
+      "line_status": "Within file range",
+      "issue": "The function calculates price minus quantity instead of multiplying price and quantity.",
+      "suggestion": "The calculation should be price multiplied by quantity. This is a clear logic bug."
+    }
+  ],
+  "file": "sample.py",
+  "model": "deepseek-r1:1.5b",
+  "review_type": "Local AI review via Ollama",
+  "note": "AI findings may be incorrect. Review suggestions before applying them."
+}

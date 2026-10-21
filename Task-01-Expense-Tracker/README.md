@@ -1,51 +1,46 @@
 CLI Expense Tracker
-A command-line expense tracking application built with Python. It allows users to record daily expenses, view their spending history, and generate expense summaries.
+A command-line application built with Python to manage daily expenses and store data persistently using JSON.
 Features
 
 Add expenses with an amount, category, description, and date.
-View all recorded expenses.
-Calculate total expenses and monthly spending.
-Summarize spending by category.
-Save and load expense records using JSON.
-Validate expense amounts and category input.
+View recorded expenses.
+Calculate total expenses.
+Track monthly spending.
+Store expense data in JSON for persistence between runs.
 
-Technologies Used
+Technologies
 
-Python 3
+Python
 JSON
-pathlib
-datetime
+Command-Line Interface (CLI)
 
 Requirements
 
-Python 3.10 or later.
+Python 3 installed on your system.
 
-How to Run
+Getting Started
+1. Clone the Repository
+git clone YOUR_GITHUB_REPOSITORY_URL
 
-Download or clone this repository.
-Open a terminal in the project folder.
-Run:
+Replace YOUR_GITHUB_REPOSITORY_URL with your repository URL.
+2. Navigate to the Project Directory
+cd Task-01-Expense-Tracker
 
+3. Run the Application
 python main.py
 
-Usage
-When the application starts, choose one of the following options:
+On Windows, you can also use:
+py main.py
 
-Add Expense — Record a new expense.
-View Expenses — Display saved expenses.
-Show Summary — View total spending, monthly expenses, and spending by category.
-Exit — Close the application.
+Data Storage
+The application uses JSON to store expense records persistently. This allows saved expenses to be accessed between application runs.
+Learning Objectives
 
-Expense records are stored in expenses.json and loaded automatically when the application starts again.
-Testing
-The application was tested for:
+Practice Python fundamentals.
+Work with structured JSON data.
+Build interactive command-line applications.
+Handle persistent data storage.
+Organize application logic into readable code.
 
-Adding expenses.
-Viewing saved expenses.
-Calculating spending summaries.
-Preserving expense records after restarting the application.
-
-Project Purpose
-This project demonstrates Python fundamentals, functions, input validation, file handling, JSON persistence, and basic data summarization.
-Internship
-Completed as part of the Elevvo Internship program.
+Project Context
+Developed as part of the Elevvo Python Programming & AI Training Program — Level 1.
